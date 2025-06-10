@@ -225,7 +225,7 @@ padding: 15px 15px;
 }
 
 .roseboxb {
-  width: 200px;
+  width: 40%;
   height: 85%;
   margin: 50 auto;
   background-color: rgb(229, 114, 139);
@@ -237,7 +237,7 @@ padding: 15px 15px;
 
 
 .lightboxb {
-  width: 75px;
+  width: 20%;
   height: 85%;
   margin: 50 auto;
   background-color: rgb(92, 199, 207);

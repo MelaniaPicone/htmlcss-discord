@@ -10,34 +10,31 @@
 header {
   background-color: #3160E0;
   padding: 5px 0px;
-  height: 70px;
+  height: 100px;
 }
-
-
-/* layout classes */
-/* max width - max 1200 */
 
 .container {
   background-image: url(/assets/img/jumbo.png);
-  max-width: auto;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+  padding-left: px;
 }
 
 .col-20 {
-  width: 10%;
+  width: 20%;
   height: 40px;
   color: white;
 }
 
 .col-20 img {
-  width: 100px;
+  width: 50%;
   height: auto;
-  margin-left: 60px;
-}
+object-fit: cover;}
 
 .col-60 {
-  width: 80%;
+  width: 60%;
   height: 60px;
   color: white;
 }
@@ -70,7 +67,7 @@ header ul li {
 }
 
 .whitecirclef {
-  width: 60px;
+  width: 80px;
   height: 30px;
   background-color: white;
   color: black;
@@ -79,7 +76,7 @@ header ul li {
   font-size: 13px;
   font-weight: bold;
   text-align: center;
-  margin-top: 14px;
+  margin-top: 15px;
 }
 
 .containerblue {
@@ -302,4 +299,9 @@ color: rgb(67, 67, 132);
   width: 100px;
   height: auto;
   padding-top: 10px;
+}
+
+.icons {
+justify-content: space-between;  
+gap: 30px
 }

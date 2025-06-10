@@ -31,7 +31,8 @@ header {
 }
 
 .col-20 img {
-  width: 80px;
+  width: 100px;
+  height: auto;
 }
 
 .col-60 {
@@ -219,31 +220,50 @@ padding: 15px 15px;
   background-color: rgb(36, 36, 40);
   margin: 0 auto;
   max-width: auto;
-  height: 250px;
+  height: 270px;
   display: flex;
   justify-content: center;
+  gap: 30px;
 }
 
 .roseboxb {
-  width: 40%;
-  height: 85%;
-  margin: 50 auto;
-  background-color: rgb(229, 114, 139);
-  border: 2px dashed black;
-  display: flex;
-  margin-top: 20px;
-
-}
-
-
-.lightboxb {
   width: 20%;
   height: 85%;
   margin: 50 auto;
-  background-color: rgb(92, 199, 207);
-  border: 2px dashed black;
   display: flex;
   margin-top: 20px;
+  color: white;
+flex-direction: column;
+line-height: 30px;
+}
+
+.containerblack img {
+width: 30px;
+height: 20px;
+}
+
+.roseboxb h4 {
+font-size: 20px;
+color: rgb(67, 67, 132);
+}
+
+
+
+.lightboxb {
+  width: 10%;
+  height: 85%;
+  margin: 50 auto;
+  display: flex;
+  margin-top: 20px;
+  color: white;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.lightboxb h5 {
+font-size: 15px;
+line-height: 40px;
+color: rgb(67, 67, 132);
 }
 
 .containerblackfoot {
@@ -259,8 +279,6 @@ padding: 15px 15px;
   width: 500px;
   height: 50%;
   margin: 50 auto;
-  background-color: rgb(92, 199, 207);
-  border: 2px dashed black;
   display: flex;
   margin-top: 20px;
   justify-content: space-between;
@@ -268,10 +286,17 @@ padding: 15px 15px;
 
 .lastloginlight span {
   text-align: center;
-  width: 60px;
-  height: 20px;
-  border: 2px dashed black;
-  background-color: rgb(232, 113, 187);
-  line-height: 15px;
-  margin-top: 12px;
+  width: 70px;
+  height: 30px;
+  padding: 5px 10px;
+  border-radius: 100px;
+  background-color: lightblue;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.lastloginlight img {
+  width: 100px;
+  height: auto;
+  padding-top: 10px;
 }

@@ -145,14 +145,15 @@ header ul li {
   display: flex;
   margin-top: 20px;
   padding: 20px;
-display: inline-block;}
+  display: inline-block;
+}
 
 .rosebox h2 {
-font-size: 20px;
+  font-size: 20px;
 }
 
 .rosebox p {
-font-size: 15px;
+  font-size: 15px;
 
 }
 
@@ -166,21 +167,52 @@ font-size: 15px;
 }
 
 .containerbigger {
-  background-color: rgb(178, 178, 184);
+  background-color:  rgb(205, 205, 205);
   margin: 0 auto;
   max-width: auto;
-  height: 450px;
+  height: 500px;
   display: flex;
+justify-content: center;
 }
 
 .greenbox {
-  width: 500px;
+max-width: 500px;  
   height: 85%;
   margin: 0 auto;
-  background-color: rgb(129, 229, 114);
-  border: 2px dashed black;
-  display: flex;
   margin-top: 35px;
+}
+
+.greenbox h2 {
+  font-size: 20px;
+text-align: center;}
+
+.greenbox img {
+  width: 100%;
+align-items: center;
+}
+
+.greenbox p {
+  text-align: center;
+  font-size: 11px;
+}
+
+.greenbox h3 {
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.bluecircle {
+width: 150px;
+text-align: center;
+background-color: lightblue;
+  color: black;
+margin-left: 180px;  
+padding: 15px 15px;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
 }
 
 .containerblack {

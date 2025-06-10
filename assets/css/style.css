@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* generals */
+
+header {
+  background-color: #3160E0;
+  padding: 10px 0px;
+
+}
+
+
+/* layout classes */
+/* max width - max 1200 */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.col-20 {
+  width: 20%;
+  height: 75px;
+
+}
+
+.col-60 {
+  width: 60%;
+  height: 75px;
+}
+
+/* utility classes */
+
+.bg-orange {
+  background-color: orange;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+/* content classes */
+
+ul {
+  list-style-type: none;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  margin: 0 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+
+.containerblue {
+  max-width: 1200px;
+  height: 200px;
+}
+
+.pinkbox {
+  width: 500px;
+  height: 85%;
+  margin: 0 auto;
+  background-color: rgb(229, 125, 201);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+}
+
+.containerwhite {
+  background-color: rgb(220, 220, 228);
+  margin: 0 auto;
+  max-width: auto;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.lightbox {
+  width: 300px;
+  height: 85%;
+  margin: 50 auto;
+  background-color: rgb(92, 199, 207);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+}
+
+.rosebox {
+  width: 200px;
+  height: 85%;
+  margin: 50 auto;
+  background-color: rgb(229, 114, 139);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+}
+
+.containergrey {
+  background-color: rgb(122, 122, 126);
+  margin: 0 auto;
+  max-width: auto;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.containerbigger {
+  background-color: rgb(178, 178, 184);
+  margin: 0 auto;
+  max-width: auto;
+  height: 450px;
+  display: flex;
+}
+
+.greenbox {
+  width: 500px;
+  height: 85%;
+  margin: 0 auto;
+  background-color: rgb(129, 229, 114);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 35px;
+}
+
+.containerblack {
+  background-color: rgb(36, 36, 40);
+  margin: 0 auto;
+  max-width: auto;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.roseboxb {
+  width: 200px;
+  height: 85%;
+  margin: 50 auto;
+  background-color: rgb(229, 114, 139);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+
+}
+
+
+.lightboxb {
+  width: 75px;
+  height: 85%;
+  margin: 50 auto;
+  background-color: rgb(92, 199, 207);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+}
+
+.containerblackfoot {
+  background-color: rgb(36, 36, 40);
+  margin: 0 auto;
+  max-width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.lastloginlight {
+  width: 500px;
+  height: 50%;
+  margin: 50 auto;
+  background-color: rgb(92, 199, 207);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.lastloginlight span {
+  text-align: center;
+  width: 60px;
+  height: 20px;
+  border: 2px dashed black;
+  background-color: rgb(232, 113, 187);
+  line-height: 15px;
+  margin-top: 12px;
+}
